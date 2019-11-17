@@ -35,9 +35,8 @@ style.innerHTML = `
     }
 
     .mainBar{
-        width:80px;
-        height:500px;
-        width: 80px;
+        height:50%;
+        width: 70%;
         margin-top:200%;
         border-style: solid;
         border-width: 5px 5px 5px 0;
@@ -91,9 +90,9 @@ style.innerHTML = `
         border-radius: 50%;
     }
 
-    h6{
-        cursor: pointer;
-    }
+    // h6{
+    //     cursor: pointer;
+    // }
 `
 
 var mainBody = document.querySelector('#mainBody');
